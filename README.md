@@ -5,7 +5,7 @@ Open Salad Mix gently mixes salad and dressing by slowly rolling a closed food-s
 
 > GPE Project 2026/27 – TU Berlin × Vietnamese-German University (VGU) · Phase 1 release (Nov 2026)
 
-![Open Salad Mix – CAD](images/open_salad_mix_cad.png)
+![Open Salad Mix – CAD](BOM list & 3D explosion view & Assembling\3D explosion view)
 
 ---
 
@@ -19,33 +19,33 @@ Open Salad Mix gently mixes salad and dressing by slowly rolling a closed food-s
 
 ## Key specification
 
-| Item | Value |
-|---|---|
-| Jar | Food-contact PET jar Ø120 × 200 mm with lid and seal |
-| Rollers | 3 × TPU 95A roller sleeves Ø40 mm on Ø8 stainless shafts (sleeves are wear parts) |
-| Holding the jar | Upper roller pulled down by 2 extension springs; rests on the slider holders when open |
-| Drive | JGB37-520 12 V DC gear motor with encoder, GT2 timing belt 20T → 60T (3:1) |
-| Control | Arduino Leonardo + BTS7960 motor driver; 3-speed selector; rotary timer starts and stops the run |
-| Power | MEAN WELL 12 V DC adapter (5 A, 60 W) – low voltage only |
-| Size | ≈ 320 × 220 mm footprint – fits in hand luggage |
-| Cost | ≈ €123 for all parts, shipping not included (budget ≤ €200) – see BOM |
+| Item            | Value                                                                                            |
+| --------------- | ------------------------------------------------------------------------------------------------ |
+| Jar             | Food-contact PET jar Ø120 × 200 mm with lid and seal                                             |
+| Rollers         | 3 × TPU 95A roller sleeves Ø40 mm on Ø8 stainless shafts (sleeves are wear parts)                |
+| Holding the jar | Upper roller pulled down by 2 extension springs; rests on the slider holders when open           |
+| Drive           | JGB37-520 12 V DC gear motor with encoder, GT2 timing belt 20T → 60T (3:1)                       |
+| Control         | Arduino Leonardo + BTS7960 motor driver; 3-speed selector; rotary timer starts and stops the run |
+| Power           | MEAN WELL 12 V DC adapter (5 A, 60 W) – low voltage only                                         |
+| Size            | ≈ 320 × 220 mm footprint – fits in hand luggage                                                  |
+| Cost            | ≈ €123 for all parts, shipping not included (budget ≤ €200) – see BOM                            |
 
 ## Repository structure
 
-| Folder / file | Content |
-|---|---|
-| `README.md` | This file – start here |
-| `LICENSE` | CERN-OHL-S-2.0 licence text |
-| `BOM_Open_Salad_Mix_final_v2.pdf` | Bill of materials – all printed and purchased parts with quantities and prices |
-| `OpenSalad_Mix_Assembly_Guide.pdf` | Step-by-step assembly (12 steps) + checks after assembly |
-| `3D Model/3D Print/` | STEP file of every printed part (P001–P009) |
-| `3D Model/3D print file.3mf` | Print-ready 3MF file of the printed parts |
-| `3D Model/Hardware/` | STEP files of purchased parts (reference only) |
-| `3D Model/Assembly.f3z` | Autodesk Fusion 360 archive of the full assembly |
-| `3D Model/Assembly.step` | STEP of the full assembly – opens in any CAD tool |
-| `src/Wiring Diagram.jpg` | Wiring diagram |
-| `src/motor_spin_timer/` | Arduino firmware (`motor_spin_timer.ino`) |
-| `images/` | Product picture used in this README |
+| Folder / file                      | Content                                                                        |
+| ---------------------------------- | ------------------------------------------------------------------------------ |
+| `README.md`                        | This file – start here                                                         |
+| `LICENSE`                          | CERN-OHL-S-2.0 licence text                                                    |
+| `BOM_Open_Salad_Mix_final_v2.pdf`  | Bill of materials – all printed and purchased parts with quantities and prices |
+| `OpenSalad_Mix_Assembly_Guide.pdf` | Step-by-step assembly (12 steps) + checks after assembly                       |
+| `3D Model/3D Print/`               | STEP file of every printed part (P001–P009)                                    |
+| `3D Model/3D print file.3mf`       | Print-ready 3MF file of the printed parts                                      |
+| `3D Model/Hardware/`               | STEP files of purchased parts (reference only)                                 |
+| `3D Model/Assembly.f3z`            | Autodesk Fusion 360 archive of the full assembly                               |
+| `3D Model/Assembly.step`           | STEP of the full assembly – opens in any CAD tool                              |
+| `src/Wiring Diagram.jpg`           | Wiring diagram                                                                 |
+| `src/motor_spin_timer/`            | Arduino firmware (`motor_spin_timer.ino`)                                      |
+| `images/`                          | Product picture used in this README                                            |
 
 ## How to start
 
@@ -65,6 +65,7 @@ All parts are screwed or press-fitted (no glue), so the machine can be taken apa
 ## Possible upgrades & interfaces
 
 Ideas for the next group (Phase 2):
+
 - Display showing the remaining mixing time
 - Clip-in mixing ribs inside the jar for better tumbling
 - A second jar size
