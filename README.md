@@ -5,7 +5,7 @@ Open Salad Mix gently mixes salad and dressing by slowly rolling a closed food-s
 
 > GPE Project 2026/27 – TU Berlin × Vietnamese-German University (VGU) · Phase 1 release (Nov 2026)
 
-![Open Salad Mix – CAD](BOM list & 3D explosion view & Assembling\3D explosion view)
+![Open Salad Mix – CAD](BOM list & 3D explosion view & Assembling/3D explosion view)
 
 ---
 
